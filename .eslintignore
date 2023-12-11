@@ -1,0 +1,15 @@
+# /node_modules/* and /bower_components/* ignored by default
+
+!.*.js
+!.*.ts
+*.min.js
+
+/node_modules/*
+/dist
+/es
+/lib
+/package-lock.json
+/yarn.lock
+/package.json
+
+/.lintstagedrc.js

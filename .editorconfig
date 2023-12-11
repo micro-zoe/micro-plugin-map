@@ -1,0 +1,13 @@
+# http://editorconfig.org
+root = true # 顶层配置
+
+[*]
+indent_style = space # 缩进风格
+indent_size = 2 # 缩进的空格数
+end_of_line = lf # 换行符lf【行】
+charset = utf-8 # 编码格式
+trim_trailing_whitespace = true # 删除一行中的前后空格
+insert_final_newline = true # 最后一行是否插入新行
+
+[*.md]
+trim_trailing_whitespace = false # 删除一行中的前后空格

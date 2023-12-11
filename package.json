@@ -1,0 +1,49 @@
+{
+  "name": "@micro-zoe/plugin-map",
+  "version": "1.0.0",
+  "description": "micro-app plugin for map",
+  "keywords": [
+    "micro-app",
+    "micro-app-plugin",
+    "micro-app-plugin-map"
+  ],
+  "author": "iyogic",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "module": "es/index.js",
+  "files": [
+    "README.md",
+    "es",
+    "dist"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "build": "rm -rf dist && rm -rf es && rollup -c --bundleConfigAsCjs"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.2",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.3",
+    "prettier": "^3.1.0",
+    "rollup": "^3.6.0"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">= 16.0"
+  }
+}

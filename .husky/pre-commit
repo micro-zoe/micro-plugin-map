@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# 执行`lint-staged`
+# https://github.com/okonet/lint-staged
+npx --no-install lint-staged
