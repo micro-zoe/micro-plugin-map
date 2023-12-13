@@ -24,7 +24,7 @@ we use the package like this step:
 
 ```
   import microApp from '@micro-zoe/micro-app'
-  import microPluginMap from '@micro-zoe/plugin-map'
+  import microPluginMap from '@zero/micro-plugin-map'
 
   // 设置为全局插件，作用于所有子应用
   microApp.start({
@@ -46,7 +46,11 @@ we use the package like this step:
 ### 注意
 
 - 目前插件目前仅在with沙箱下适用
+
 - 插件以umd同步的方式引入sdk，异步加载的方式暂不支持
+
 - 高德地图的不存在跨域问题，可以不用进行任何操作，高德地图若设置了使用白名单，需将白名单范围囊括主应用域名
+
 - 腾讯地图，使用时候只是常规的跨越，用此插件进行常规使用即可，腾讯地图若设置了使用白名单，需将白名单范围囊括主应用域名
+
 - 百度地图，使用时有跨域问题，可用此插件进行处理，百度地图若设置了使用白名单，需将白名单范围囊括主应用域名
