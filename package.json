@@ -11,6 +11,8 @@
   "license": "ISC",
   "main": "dist/index.js",
   "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "typings": "es/index.d.ts",
   "files": [
     "README.md",
     "es",
@@ -21,19 +23,26 @@
     "build": "rm -rf dist && rm -rf es && rollup -c --bundleConfigAsCjs"
   },
   "devDependencies": {
-    "@babel/core": "^7.23.5",
+    "@babel/core": "^7.23.6",
+    "@babel/eslint-parser": "^7.23.3",
     "@babel/preset-env": "^7.23.5",
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.2",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
     "eslint": "^8.55.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.0.1",
     "husky": "^8.0.0",
     "lint-staged": "^13.0.3",
     "prettier": "^3.1.0",
-    "rollup": "^3.6.0"
+    "rollup": "^3.6.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
   },
   "commitlint": {
     "extends": [

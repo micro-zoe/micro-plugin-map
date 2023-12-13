@@ -36,7 +36,7 @@ const MAPS_ARR_JSONP = [
  * @param {string} url
  * @returns boolean
  */
-function MapExcludeCheckerHandler(url) {
+function MapExcludeCheckerHandler(url: string): boolean {
   return MAPS_ARR_SDK.some((item) => url.includes(item));
 }
 
@@ -45,7 +45,7 @@ function MapExcludeCheckerHandler(url) {
  * @param {string} url
  * @returns boolean
  */
-function MapIgnoreCheckerHandler(url) {
+function MapIgnoreCheckerHandler(url: string): boolean {
   return [...MAPS_ARR_SDK, ...MAPS_ARR_JSONP].some((item) => url.includes(item));
 }
 
