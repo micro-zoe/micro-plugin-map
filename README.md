@@ -6,9 +6,9 @@ Installation
 
 ```
   # with npm
-  npm install rollup-plugin-typescript2 typescript tslib --save-dev
+  npm install @zero/micro-plugin-map --save-dev
   # with yarn
-  yarn add rollup-plugin-typescript2 typescript tslib --dev
+  yarn add @zero/micro-plugin-map --dev
 ```
 
 Usage
