@@ -1,6 +1,6 @@
 {
-  "name": "@zoe/micro-plugin-map",
-  "version": "0.0.1",
+  "name": "micro-plugin-map",
+  "version": "0.0.1-beta.1",
   "description": "micro-app plugin for map",
   "keywords": [
     "micro-app",
