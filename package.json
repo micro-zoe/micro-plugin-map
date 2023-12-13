@@ -1,5 +1,5 @@
 {
-  "name": "micro-plugin-map",
+  "name": "@zero/micro-plugin-map",
   "version": "0.0.1-beta.1",
   "description": "micro-app plugin for map",
   "keywords": [
