@@ -1,12 +1,12 @@
 module.exports={
-  '{src}/**/*.{md,json}': [
+  'src/**/*.{md,json}': [
     "prettier --write --no-error-on-unmatched-pattern"
   ],
-  '*{src}/**/.js': [
+  '*src/**/.js': [
     "eslint --fix",
     "prettier --write"
   ],
-  '{src}/**/*.ts': [
+  'src/**/*.ts': [
     "eslint --fix",
     "prettier --parser=typescript --write",
   ]
