@@ -6,9 +6,9 @@ Installation
 
 ```
   # with npm
-  npm install @zero/micro-plugin-map --save-dev
+  npm install @micro-zoe/micro-plugin-map --save-dev
   # with yarn
-  yarn add @zero/micro-plugin-map --dev
+  yarn add @micro-zoe/micro-plugin-map --dev
 ```
 
 Usage
@@ -24,7 +24,7 @@ we use the package like this step:
 
 ```
   import microApp from '@micro-zoe/micro-app'
-  import microPluginMap from '@zero/micro-plugin-map'
+  import microPluginMap from '@micro-zoe/micro-plugin-map'
 
   // 设置为全局插件，作用于所有子应用
   microApp.start({
