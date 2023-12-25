@@ -54,3 +54,6 @@ we use the package like this step:
 - 腾讯地图，使用时候只是常规的跨越，用此插件进行常规使用即可，腾讯地图若设置了使用白名单，需将白名单范围囊括主应用域名
 
 - 百度地图，使用时有跨域问题，可用此插件进行处理，百度地图若设置了使用白名单，需将白名单范围囊括主应用域名
+
+### 源码
+[micro-plugin-map 源码地址：https://github.com/micro-zoe/micro-plugin-map](https://github.com/micro-zoe/micro-plugin-map)
