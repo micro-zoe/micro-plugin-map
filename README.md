@@ -1,10 +1,10 @@
-微前端micro-app 地图插件，适配高德、百度、腾讯地图 🎉🎉🎉
+微前端 Micro-app 地图插件，适配高德、百度、腾讯地图 🎉🎉🎉
 
-#### 使用
+### 使用
 
 Installation
 
-```
+```bash
   # with npm
   npm install @micro-zoe/micro-plugin-map --save-dev
   # with yarn
@@ -22,7 +22,7 @@ we use the package like this step:
 
 2、在主应用中，使用该包
 
-```
+```js
   import microApp from '@micro-zoe/micro-app'
   import microPluginMap from '@micro-zoe/micro-plugin-map'
 
@@ -56,4 +56,4 @@ we use the package like this step:
 - 百度地图，使用时有跨域问题，可用此插件进行处理，百度地图若设置了使用白名单，需将白名单范围囊括主应用域名
 
 ### 源码
-[micro-plugin-map 源码地址：https://github.com/micro-zoe/micro-plugin-map](https://github.com/micro-zoe/micro-plugin-map)
+micro-plugin-map 源码地址：[https://github.com/micro-zoe/micro-plugin-map](https://github.com/micro-zoe/micro-plugin-map)
