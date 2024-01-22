@@ -23,7 +23,7 @@ const MAPS_ARR_JSONP = [
   'map.baidu.com',
   'dlswbr.baidu.com',
   'hm.baidu.com',
-  'maponline0.bdimg.com',
+  'bdimg.com',
 
   // 腾讯MAP
   'apikey.map.qq.com',
