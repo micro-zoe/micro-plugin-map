@@ -57,3 +57,15 @@ we use the package like this step:
 
 ### 源码
 micro-plugin-map 源码地址：[https://github.com/micro-zoe/micro-plugin-map](https://github.com/micro-zoe/micro-plugin-map)
+
+### 发布
+
+```bash
+  # with npm
+  npm run build
+  # with yarn
+  yarn build
+
+  npm login
+  npm publish 
+```
