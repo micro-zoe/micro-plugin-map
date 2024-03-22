@@ -11,10 +11,13 @@ const MAPS_ARR_SDK = [
   '//api.map.baidu.com',
 
   // 腾讯MAP_SDK
-  '//map.qq.com/api/gljs'
+  '//map.qq.com/api/gljs',
 
   // 高德MAP_SDK 【高德无跨域问题无需处理】
   // "//webapi.amap.com/maps",
+
+  // Google Map
+  '//maps.googleapis.com/maps/api/js'
 ];
 
 // JSONP
@@ -28,7 +31,10 @@ const MAPS_ARR_JSONP = [
   // 腾讯MAP
   'apikey.map.qq.com',
   'confinfo.map.qq.com',
-  'overseactrl.map.qq.com'
+  'overseactrl.map.qq.com',
+
+  // Google Map
+  'maps.googleapis.com'
 ];
 
 /**
