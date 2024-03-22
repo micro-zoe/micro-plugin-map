@@ -16,7 +16,7 @@ const MAPS_ARR_SDK = [
   // 高德MAP_SDK 【高德无跨域问题无需处理】
   // "//webapi.amap.com/maps",
 
-  // Google Map
+  // Google Map width direct script
   '//maps.googleapis.com/maps/api/js'
 ];
 
@@ -33,7 +33,7 @@ const MAPS_ARR_JSONP = [
   'confinfo.map.qq.com',
   'overseactrl.map.qq.com',
 
-  // Google Map
+  // Google Map width direct script
   'maps.googleapis.com'
 ];
 
